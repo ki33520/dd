@@ -12,9 +12,15 @@
 </head>
 <body>
 	<div class="page-wrap page-bottom-bar page-index">
-		<div class="top-banner">
-			<div class="top-banner-inner">
-
+		<div class="head">
+			<div class="head-nav flex flex-items-middle">
+				<div class="search-bar">
+					<div class="input-wrap flex">
+						<span class="icon icon-search"></span>
+						<input class="input-text" placeholder="搜索商品" type="text" />
+					</div>
+				</div>
+				<div class="nav-control">三</div>
 			</div>
 		</div>
 	
@@ -31,6 +37,9 @@
 		</div>
 	</div>
 
-    <script data-main="assets/js/main" src="assets/js/require.js"></script>
+	<script data-main="assets/js/main" src="assets/js/require.js"></script>
+	<script type="text/javascript">
+		require(['index']);
+	</script>
 </body>
 </html>

@@ -1,12 +1,12 @@
 "use strict";
 
 require.config({
-	baseUrl: "./assets/js",
+	baseUrl: "assets/js",
 	paths: {
-		"jquery": "jquery.min",
-	},
-});
-
-require(["jquery"],function($) {
-	console.log($)
+		"jquery": "./jquery.min",
+		"preloadjs": "preloadjs.min",
+		"swiper": "swiper.min",
+		"underscore": "underscore",
+		"index":"index"
+	}
 });
