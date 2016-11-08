@@ -15,6 +15,9 @@
 .popup .popup-content{ position: absolute; width: 8.8rem; height: 4.8rem; left: 50%; margin-left: -4.4rem; top: 50%; margin-top: -2.4rem;}
 .popup .popup-content .popup-close{ position: absolute; right: 0; top: 0;}
 .popup .popup-content-inner{ background-color: #fff; border-radius: 0.5rem; overflow: hidden; height: 100%; box-shadow: 0 0 0.5rem #777;}
+.swiper-container{ height: 100%; width: 100%;}
+.swiper-container .swiper-wrapper,
+.swiper-container .swiper-slide{ width: 100%; height: 100%; }
 
 /*top*/
 .head-nav{ height: 1.4rem; background-color: #232f3f;}
@@ -37,8 +40,7 @@
 
 
 /*index*/
-.container-banner{ height: 4rem; }
-.container-banner .swiper-container{ height: 100%; width: 100%;}
+.container-banner{ height: 4rem; overflow: hidden;}
 .container-banner .img-wrap{ width: 100%;}
 
 .quick-nav{  }
