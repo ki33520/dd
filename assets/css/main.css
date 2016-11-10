@@ -8,7 +8,7 @@
 .input-text{ box-sizing: border-box;}
 .icon,
 .btn{ display: inline-block; background-repeat: no-repeat; background-position: center center; background-size: cover;}
-.btn-orange{ background-color: orange; color: #fff; text-align: center; width: 100%; height: 100%;}
+.btn-orange{ background-color: orange; color: #fff; text-align: center; height: 100%;}
 .page-wrap{}
 .page-bottom-bar{ padding-bottom: 1.32rem;}
 .img-wrap img{ display: block; width: 100%; }
@@ -20,8 +20,11 @@
 .swiper-container{ height: 100%; width: 100%;}
 .swiper-container .swiper-wrapper,
 .swiper-container .swiper-slide{ width: 100%; height: 100%; }
-.confirm-btn{ padding: 0 0.3rem; margin: 0.2rem 0; box-sizing: border-box; height: 1.2rem;}
+.confirm-btn{ padding: 0 0.3rem; margin: 0.2rem 0; box-sizing: border-box; height: 1.2rem; text-align: center;}
 .confirm-btn .btn{ line-height: 1.2rem; font-size: 0.48rem; border-radius: 0.12rem;}
+.ellipsis-1,
+.ellipsis-2{ overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1;-webkit-box-orient: vertical; }
+.ellipsis-2{ -webkit-line-clamp: 2;}
 
 /*top*/
 .head-nav{ height: 1.4rem; background-color: #232f3f;}
@@ -88,3 +91,23 @@
 .contact-info .contact-item{ color: #000; padding: 0.4rem 0.3rem; border-bottom: 1px solid #999; font-size: 0.4rem; line-height: 150%;}
 .contact-info .contact-item .label{ float: left; width: 2rem; }
 .contact-info .contact-item .flw{ margin-left: 2rem; }
+
+/*cart*/
+.cart-msg{ background-color: #fc8; padding: 0.2rem 0.5rem;}
+.cart-msg .btn-ogn-border{ padding: 0.06rem 0.2rem; font-size: 0.32rem; line-height: 150%; border: 2px solid #f60; color: #f60; margin-right: 0.2rem;}
+.cart-msg p{ display: inline-block; color: #000;}
+.cart-item{ padding: 0.3rem 0; border-bottom: 1px solid #ccc;}
+.cart-item .item-left{ width: 1rem; flex: 1; height: 2.4rem;}
+.cart-item .cart-checkbox{ display: block; width: 0.5rem; height: 0.5rem; border: 1px solid #999; border-radius: 100%; margin: 0 auto;}
+.cart-item .item-right{ flex: 9;}
+.cart-item .media-box{ padding-right: 0.2rem; }
+.cart-product-culm-1{ float: left; width: 2.4rem; height: 2.4rem;}
+.cart-product-culm-2{ margin-bottom: 0.2rem; padding-left: 2.4rem; padding-right: 0.2rem;}
+.cart-product-name{ margin-bottom: 0.2rem; font-size: 0.4rem; line-height: 150%; height: 1.2rem;}
+.cart-product-btns .btn{ padding: 0.1rem 0.2rem; font-size: 0.32rem; line-height: 150%;}
+.cart-product-btns .btn-ogn{ border: 1px solid #f60; background-color: #f60; color: #fff;}
+.cart-product-btns .btn-border{ border: 1px solid #ccc; background-color: #fff; color: #333;}
+.cart-product-culm-3{ background-color: #f1f1f1; border-top: 1px solid #d7d7d7; line-height: 0.8rem; padding: 0.12rem 0.2rem;}
+.cart-product-culm-3 .add-sub{ height: 0.8rem; border-radius: 0.15rem; float: right; background-color: #fff;}
+.cart-product-culm-3 .add-sub .btn{ width: 0.8rem; line-height: 0.8rem; font-size: 0.42rem;}
+.cart-product-culm-3 .add-sub .number{ width: 1.4rem; font-size: 0.42rem;}
