@@ -20,6 +20,8 @@
 .swiper-container{ height: 100%; width: 100%;}
 .swiper-container .swiper-wrapper,
 .swiper-container .swiper-slide{ width: 100%; height: 100%; }
+.confirm-btn{ padding: 0 0.3rem; margin: 0.2rem 0; box-sizing: border-box; height: 1.2rem;}
+.confirm-btn .btn{ line-height: 1.2rem; font-size: 0.48rem; border-radius: 0.12rem;}
 
 /*top*/
 .head-nav{ height: 1.4rem; background-color: #232f3f;}
@@ -54,13 +56,15 @@
 .media-content .content-item{ width: 50%; text-align: center;}
 
 /*product-detail*/
-.options-item{ font-size: 0.4rem; padding: 0.2rem 0.3rem; line-height: 0.8rem;}
+.options-item{ font-size: 0.4rem; padding: 0.2rem 0.3rem 0 0.3rem; line-height: 0.8rem;}
 .options-item .label{ float: left; width: 2rem; }
-.options-item .radio-box{ float: left; line-height: 0.8rem; box-sizing: border-box; height: 0.8rem; width: 1.8rem; padding: 0 0.2rem; margin-right: 0.2rem; border: 1px solid #333; border-radius: 0.08rem; }
+.options-item .flw{ margin-left: 2rem; }
+.options-item .radio-box{ float: left; line-height: 0.8rem; box-sizing: border-box; height: 0.8rem; width: 1.8rem; padding: 0 0.2rem; border: 1px solid #333; border-radius: 0.08rem; margin-right: 0.2rem; margin-bottom: 0.2rem;}
+.options-item .radio-box:last-child{ margin-right: 0; }
 .options-item .radio-box span{ display: block; color: #333; height: 100%; box-sizing: border-box; text-align: center; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1;-webkit-box-orient: vertical;}
 .options-item .radio-box.checked{ border: 1px solid #f00; color: #f00;}
 .options-item .radio-box.unchecked{ border: 1px solid #999; color: #999;}
-.options-num{ padding: 0.3rem; border-top: 1px solid #d7d7d7; line-height: 0.96rem;}
+.options-num{ padding: 0.3rem; margin-top: 0.2rem; border-top: 1px solid #d7d7d7; line-height: 0.96rem;}
 .add-sub{ height: 0.96rem; border: 1px solid #a5a5a5; border-radius: 0.15rem; float: right; text-align: center;}
 .add-sub .btn{ width: 0.92rem; height: 100%; font-size: 0.48rem; color: #000; float: left;}
 .add-sub .btn.disabeld{ color: #999;}
@@ -78,5 +82,9 @@
 .order-info .contact-item .flw{ margin-left: 2rem; }
 .contact-btn{ padding-top: 0.3rem; text-align: center; }
 .contact-btn .btn-blank{ border: 1px solid #333; border-radius: 0.08rem; font-size: 0.32rem; color: #333; padding: 0.2rem 0.5rem; line-height: 0.5rem; height: 0.5rem;}
-.order-confirm-btn{ padding: 0 0.3rem; margin: 0.2rem 0; box-sizing: border-box; height: 1.2rem;}
-.order-confirm-btn .btn{ line-height: 1.2rem; font-size: 0.48rem; border-radius: 0.12rem;}
+
+/*contact-info*/
+.contact-info{ margin-bottom: 1rem; }
+.contact-info .contact-item{ color: #000; padding: 0.4rem 0.3rem; border-bottom: 1px solid #999; font-size: 0.4rem; line-height: 150%;}
+.contact-info .contact-item .label{ float: left; width: 2rem; }
+.contact-info .contact-item .flw{ margin-left: 2rem; }
