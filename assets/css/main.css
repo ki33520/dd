@@ -41,10 +41,19 @@
 .bottom-bar{ position: fixed; left: 0; bottom: 0; width: 100%; height: 1.32rem;}
 .bottom-bar-inner{ height: 100%; box-sizing: border-box; border-top: 1px solid #dbdbdb; background-color: rgba(255,255,255,0.9);}
 .bottom-bar-inner .flex{ height: 100%; }
-.bottom-nav .nav-item{ flex: 2; border-left: 1px solid #dbdbdb; height: 100%;}
-.bottom-nav .nav-item:first-child{ flex: 1; border-left: 0;}
-.bottom-nav .nav-item a{ display: block; height: 100%; text-align: center;}
-
+.bottom-bar .nav-item{ flex: 2; border-left: 1px solid #dbdbdb; height: 100%;}
+.bottom-bar .nav-item:first-child{ flex: 1; border-left: 0;}
+.bottom-bar .nav-item a{ display: block; height: 100%; text-align: center;}
+.bottom-item{ height: 100%; line-height: 1.32rem; box-sizing: border-box;}
+.bottom-item-1{ flex: 1; }
+.bottom-item-2{ flex: 2; }
+.bottom-item-3{ flex: 3; }
+.bottom-item-4{ flex: 4; }
+.bottom-item-5{ flex: 5; }
+.text-line-2{ line-height: 0.5rem; padding-top: 0.16rem; font-size: 0.36rem; color: #666;}
+.btn-ogn-wh{ height: 100%; width: 100%; background-color: orange; color: #fff; text-align: center; font-size: 0.48rem;}
+.bottom-item .cart-checkbox{ margin: 0 0.1rem 0 0.25rem; }
+.bottom-item .checkbox-flw{ font-size: 0.4rem; color: #000;}
 
 /*index*/
 .container-banner{ height: 4rem; overflow: hidden;}
@@ -98,16 +107,17 @@
 .cart-msg p{ display: inline-block; color: #000;}
 .cart-item{ padding: 0.3rem 0; border-bottom: 1px solid #ccc;}
 .cart-item .item-left{ width: 1rem; flex: 1; height: 2.4rem;}
-.cart-item .cart-checkbox{ display: block; width: 0.5rem; height: 0.5rem; border: 1px solid #999; border-radius: 100%; margin: 0 auto;}
+.cart-checkbox{ display: block; width: 0.5rem; height: 0.5rem; border: 1px solid #999; border-radius: 100%; margin: 0 auto;}
 .cart-item .item-right{ flex: 9;}
 .cart-item .media-box{ padding-right: 0.2rem; }
 .cart-product-culm-1{ float: left; width: 2.4rem; height: 2.4rem;}
 .cart-product-culm-2{ margin-bottom: 0.2rem; padding-left: 2.4rem; padding-right: 0.2rem;}
-.cart-product-name{ margin-bottom: 0.2rem; font-size: 0.4rem; line-height: 150%; height: 1.2rem;}
+.cart-product-name{ margin-bottom: 0.2rem; font-size: 0.36rem; line-height: 150%; height: 1.08rem;}
 .cart-product-btns .btn{ padding: 0.1rem 0.2rem; font-size: 0.32rem; line-height: 150%;}
 .cart-product-btns .btn-ogn{ border: 1px solid #f60; background-color: #f60; color: #fff;}
 .cart-product-btns .btn-border{ border: 1px solid #ccc; background-color: #fff; color: #333;}
 .cart-product-culm-3{ background-color: #f1f1f1; border-top: 1px solid #d7d7d7; line-height: 0.8rem; padding: 0.12rem 0.2rem;}
+.cart-product-culm-3 .label{ font-size: 0.36rem; }
 .cart-product-culm-3 .add-sub{ height: 0.8rem; border-radius: 0.15rem; float: right; background-color: #fff;}
 .cart-product-culm-3 .add-sub .btn{ width: 0.8rem; line-height: 0.8rem; font-size: 0.42rem;}
 .cart-product-culm-3 .add-sub .number{ width: 1.4rem; font-size: 0.42rem;}
