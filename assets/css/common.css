@@ -21,7 +21,19 @@ ins,a{text-decoration:none}
 .cf:before,.cf:after{content:"";display:table}.cf:after{clear:both}.cf{*zoom:1}
 .left{ float: left;}
 .right{ float: right;}
+.text-left{ text-align: left;}
+.text-center{ text-align: center;}
+.text-right{ text-align: right;}
+.pop-alert{ position: absolute; color: #fff; z-index: 999; border-radius: 0.1rem; height: 100%; width: 100%; left: 0; top: 0; display: none;}
+.pop-alert .text{ position: absolute; width: 6.18rem; height: 3.24rem; left: 50%; top: 50%; margin-top: -1.62rem; margin-left: -3.09rem; font-size: 0.3rem; line-height: 150%; background: rgba(0,0,0,0.80); border-radius: 0.2rem;}
+.pop-alert .img-wrap{ background: rgba(0,0,0,0.75); height: 100%; width: 100%; position: fixed; top: 0px; z-index: 10000; justify-content: center; align-items:center;}
+
+.pop-alert .img-wrap div{background-size: contain; background-position: center; height: 100%; width: 100%; background-repeat: no-repeat;}
 
 /*layout*/
 html,body{ height: 100%; width: 100%; font-size: 12px;}
 body{ text-align: left; background-color: #fff; color: #333; line-height: 150%; font-family: arial,Helvetica,sans-serif;}
+
+body .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{ bottom: 0.1rem;}
+body .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{ width: 0.16rem; height: 0.16rem; margin: 0 0.1rem;}
+body .swiper-pagination-bullets .swiper-pagination-bullet-active{ background-color: #fff; box-shadow: 0 0 1px #999;}

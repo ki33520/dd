@@ -32,6 +32,49 @@ require(["jquery","swiper"],function($,swiper) {
 		}
 		sub.on('click',count.bind(-1));
 		add.on('click',count.bind(1));
-	})
+	});
 
+	var pop = {
+		wrap: $('<div class="pop-alert"></div>'),
+		show: function(html){
+			var self = this;
+			this.wrap.show().html(html);
+			this.wrap.on('click',function(){
+				self.hide();
+			})
+		},
+		alert: function(text){
+			this.wrap.show().delay(1000).fadeOut(10,function(){
+				$(this).empty();
+			}).html('<div class="text flex flex-items-center flex-items-middle">'+text+'</div>');
+		},
+		hide: function(){
+			this.wrap.hide().empty();
+		}
+	}
+	pop.wrap.appendTo('body');
+	$('.add-to-cart').on('click',function(e){
+		pop.alert('<span class="icon icon-face">你已成功添加购物车</span>')
+	});
+	$('.select-menu .select-menu-inner').click(function(){
+		var open = $('.select-menu').hasClass('open');
+		if(open){
+			$('.select-menu').removeClass('open')
+		}else{
+			$('.select-menu').addClass('open')
+		}
+	})
+	$('.nav-control').each(function(){
+		var masker = $('<div class="masker"></div>');
+		$(this).find('.icon-setting').click(function(){
+			var open = $('.nav-control').hasClass('open');
+			if(open){
+				$('.nav-control').removeClass('open');
+				masker.remove();
+			}else{
+				$('.nav-control').addClass('open');
+				masker.appendTo('body');
+			}
+		})
+	})
 });
