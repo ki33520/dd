@@ -77,4 +77,14 @@ require(["jquery","swiper"],function($,swiper) {
 			}
 		})
 	})
+	$('.order-item').each(function(index,item){
+		$(item).find('.title').on('click',function(){
+			var open = $(item).hasClass('open');
+			if(open){
+				$(item).removeClass('open')
+			}else{
+				$(item).addClass('open')
+			}
+		})
+	})
 });

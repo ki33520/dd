@@ -70,7 +70,7 @@
 .btn-ogn-wh{ height: 100%; width: 100%; background-color: #ff7043; color: #fff; text-align: center; font-size: 0.48rem;}
 .bottom-item .cart-checkbox{ margin: 0 0.1rem 0 0.25rem; }
 .bottom-item .checkbox-flw{ font-size: 0.4rem; color: #000;}
-.checked-price{ padding-left: 0.3rem; color: #ff7043; font-size: 0.4rem;}
+.checked-price{ padding-left: 0.5rem; color: #ff7043; font-size: 0.48rem;}
 .bottom-item .btn-orange{ width: 80%; margin-right: 0.3rem; border-radius: 0.12rem; font-size: 0.45rem; height: 1.08rem; line-height: 1.08rem;}
 
 /*index*/
@@ -171,5 +171,23 @@
 .brand-content{ background-color: #f1f1f1; border-top: 1px solid #f1f1f1;}
 .brand-content .content-item{ width: 3.33333rem; height: 3.33333rem;}
 .brand-content .content-item .content-item-inner{ padding-right: 1px; padding-bottom: 1px;}
+
+/*order-list*/
+.order-list{ padding-top: 0.4rem; background-color: #f4f4f4;}
+.order-list .order-info{ background-color: #fff;}
+.order-list .flex-1{ flex: 4.5; text-indent: 0.2rem;}
+.order-list .flex-2{ flex: 4.5; text-indent: 0.2rem;}
+.order-list .flex-3{ flex: 1;}
+.order-item{ border-bottom: 1px solid #aaa;}
+.order-item .title{ line-height: 1rem; height: 1rem;}
+.order-item .order-info{ display: none;}
+.order-item .icon-arr{ background: url(../images/icon_arr_up_2.png) no-repeat left center; background-size: 100%; width: 0.4rem; height: 0.25333rem;}
+.order-item.open .icon-arr{ background: url(../images/icon_arr_down_2.png) no-repeat left center;}
+.order-item.open .order-info{ display: block;}
+
+
+
+
+
 
 
